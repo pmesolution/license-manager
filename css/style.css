@@ -1,0 +1,63 @@
+#adminnotice {
+	width: 50%;
+}
+#postbutton {
+    margin-top: 20px 0;
+}
+
+#divikeyform label {
+	margin:20px 20px 0 0;
+}
+#divikeyform input[type="submit"] , .pme-primary{
+    padding:8px 20px;
+    background:#0159ff;
+    border:none;
+    color:#ffffff;
+    margin:20px 0;
+}
+
+/*.clientstable {border-collapse:collapse;}
+.clientstable th , .clientstable td {
+	border:1px solid #000000;
+	min-width:100px;
+	min-height:25px;
+	text-align:center;
+	vertical-align:middle;
+	border-collapse:collapse;
+	height:25px;
+}*/
+
+.pme-modal {
+	position:absolute;
+	z-index:1000;
+	top:100;
+	left:100;
+}
+.client-add-section { display:none; }
+
+
+
+
+
+.ui-dialog {width:350px;}
+.ui-dialog form {width:90%!important;margin:auto;}
+.ui-dialog form label { width:97%!important; display:block;}
+.ui-dialog form input , .ui-dialog form select, .ui-dialog textarea { 
+	width:97%!important;
+	display:block; 
+	padding:5px;
+}
+
+.editbox {width:350px;}
+.editbox form {width:90%!important;margin:auto;}
+.editbox form label { width:100%!important; display:block;}
+.editbox form input , .editbox form select, .editbox textarea { 
+	width:97%!important;
+	display:block; 
+	padding:5px;
+}
+
+.ui-dialog form input[type="submit"] {
+	width:auto!important;
+	margin:20px 0;
+}
